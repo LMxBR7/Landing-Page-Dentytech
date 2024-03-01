@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.nav{
+    height:100px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px;
+}
+.logo{
+    text-align: center;
+}
+.menu{
+    display:flex;
+    align-items: center;
+}
+.menu h1{
+    font-size: 20px;
+    border:2px solid;
+    border-radius: 20px;
+    border-color: black;
+    padding: 5px 10px;
+}
+.menu i{
+    font-size: 20px;
+    border:2px solid;
+    border-radius: 20px;
+    border-color: black;
+    padding: 5px 10px;
+}
+.button{
+    display:flex;
+}
+.button h4{
+    font-size: 20px;
+    border:2px solid;
+    border-radius: 20px;
+    border-color: black;
+    padding: 5px 10px;
+}
+#sign-up{
+    border: none;
+    font-weight: 10%;
+    background-color: orangered;
+    color: white;
+}
+.center{
+    height:550px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.center h1{
+    font-size: 150px;
+}
+.center img{
+    height:400px;
+    width:300px;
+    border:2px transparent;
+    border-radius: 30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+#img4{
+    transform:translate(-50%,-50%)rotate(-10deg);
+}
+#img3{
+    transform:translate(-50%,-50%)rotate(-20deg);
+}
+#img2{
+    transform:translate(-50%,-50%)rotate(-30deg);
+}
+#img1{
+    transform:translate(-50%,-50%)rotate(-40deg);
+}
+.bottom{
+    height:100px;
+    width: 100%;
+    padding: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#icons{
+    font-size: 20px;
+    text-align: center;
+}
+.ri-instagram-line{
+    margin:10px;
+}
+.ri-twitter-line{
+    margin:10px;
+}
+.ri-youtube-line{
+    margin:10px;
+}
+.right h1{
+    font-size: 20px;
+}
+.left h1{
+    font-size: 20px;
+}
+
